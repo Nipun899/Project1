@@ -8,6 +8,8 @@ html,body{
     width: 100%;
 }
 #main{
+    position: relative;
+    overflow: hidden;
     display: flex;
     height: 100%;
     width: 100%;
