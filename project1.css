@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(40, 39, 39);
+    color: rgb(255, 255, 255);
+    font-family: gilroy;}
+
+#text h1{
+   
+    height: 40%;
+    width: 45%;
+    position: absolute;
+    font-size: 90px;
+    text-align: center;
+    z-index: 888;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Gilroy;
+    font-weight: 300;
+}
+#image{
+    left: 50%;
+    transform: translate(-50%,0%);
+    margin-top: 21.7%;
+    height: 58%;
+    width:36%;
+    background-position: top;
+    background-image: url(https://images.unsplash.com/photo-1453396450673-3fe83d2db2c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    position: absolute;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+#sidetext1 p{
+    z-index: 99;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    text-align: right;
+    height: 100px;
+    width: 200px;
+    
+    
+    letter-spacing: 1px;
+
+}
+#sidetext2 p{
+    z-index: 999;
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    text-align: left;
+    height: 100px;
+    width: 200px;
+    letter-spacing: 1px;
+}
+#oval{
+    width: 20%;
+    height: 60%;
+    position: absolute;
+    z-index: 1000;
+    border: solid rgba(255, 255, 255, 0.553) 2px;
+    border-radius: 1000px;
+    top: 25%;
+    left: 25%;
+}
+#circle{
+    position: absolute ;
+    width: 100px;
+    height: 100px;
+    border: solid rgba(255, 0, 0, 0.53) 2px;
+    border-radius: 50%;
+    top: 25%;
+    left: 25%;
+}
+#nav{ 
+    display: flex;
+    height: 10%;
+    width: 100%; 
+    position: relative;
+}
+#navleft{
+    justify-content: space-between;
+    width: 10%;
+    padding-left: 30px;
+    position: relative;
+    display: flex;
+}
+
+#icons{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#navmid{
+    display: flex;
+    width: 30%;
+    position:relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25%;
+    font-size: 20px;
+}
+#navmid a{
+    text-decoration: none;
+    color: white;
+}
+#navright{
+    width: 10%;
+    
+}
