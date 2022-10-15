@@ -1,0 +1,237 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#main video {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+#main>#blend {
+  height: 200px;
+  width: 90%;
+  background-color: rgb(11, 26, 74);
+  mix-blend-mode: difference;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+#nav {
+  display: flex;
+  color: white;
+  height: 50px;
+  width: 90%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.466);
+  top: 50px;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: space-between;
+}
+#nav > i {
+  padding: 20px;
+  font-size: 30px;
+}
+#nav > #navright {
+  height: 100%;
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+}
+#nav > input {
+  border: solid black 5px;
+  border-radius: 10px;
+}
+#rightbox{
+    background-color: black;
+    height:50px;
+    width:50px;
+    border: solid white 3px;
+    border-radius: 50%;
+    color: white;
+    font-size: 5px;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    transform: translate(-50%,-50%);
+}
+#rightbox>h2{
+    position: relative;
+    top: 37%;
+    left: 19%;
+    transform: translate(-50%-50%);
+    font-weight: 500;
+    font-family: Gilroy;
+}
+#maintext{
+    position: absolute;
+    width: 550px;
+    height: 110px;
+    color: rgb(255, 255, 255);
+    font-size: 39px;
+    font-family: Anurati;
+    top: 30%;
+    left: 15%;
+    line-height: 1;
+    letter-spacing:12px;
+}
+#low{
+display: flex;
+ position: absolute;
+ justify-content: space-between;
+ width: 450px;
+ align-items: center;
+ top: 53%;
+ left: 15%;
+ color: white;
+ font-family: Oswald;
+ margin-top: 20px;
+}
+#low>#count>h1{
+    line-height:0px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+#low>#count>p{
+    margin-top: -10px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 300;
+}
+#low>i{
+    font-size: 35px;
+    padding-left: 10px;   
+}
+#side{
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    left: 60%;
+    top: 30%;
+    z-index: 99999px;
+    overflow: hidden;
+    /* background-color: red; */
+    color: white;
+}
+#side>img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+#side>h2{
+    letter-spacing: 2px;
+    font-size: 17px;
+    padding-top: 20px;
+    text-decoration: underline;
+    font-weight: 200;
+}
+#side>p{
+    padding-top: 5px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+#left{
+    border: double white 3px;
+    text-align: center;
+    width: 100px;
+    left: 55%;
+    top: 55%;
+    position: absolute;
+}
+#left>i{
+    font-size: 30px;
+}
+#left>p{
+    font-size: 14px;
+}
+#left>h1{
+    font-size: 17px;
+}
+#bottom{
+    color: white;
+    font-family: Gilroy;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 65%;
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0.379);
+}
+#bottomlist{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#listleft>img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+#listleft{
+    display: flex;
+}
+#head{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+#head>p{
+    color: rgb(139, 241, 6) ;
+}
+.list>i{
+    font-size: 45px;
+    align-items: center;
+    color:rgb(139, 241, 6) ;
+}
+#bottomtext{
+    padding-left: 50px;
+    width: 49%;
+}
+#bottomtext>h4{
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+#bottomtext>p{
+    font-size: 16px;
+
+}
+#main>h5{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 15px;
+    font-family: Oswald;
+    letter-spacing: 4px;
+    text-decoration: underline 10px ;
+    
+    color: #fff;
+}
