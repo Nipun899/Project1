@@ -150,7 +150,7 @@ display: flex;
     font-weight: 100;
 }
 #left{
-    border: double white 3px;
+    border: dotted white 5px;
     text-align: center;
     width: 100px;
     left: 55%;
@@ -167,6 +167,7 @@ display: flex;
     font-size: 17px;
 }
 #bottom{
+    width: 90%;
     color: white;
     font-family: Gilroy;
     display: flex;
@@ -174,6 +175,8 @@ display: flex;
     position: absolute;
     top: 65%;
     height: 110px;
+    left: 50%;
+    transform: translate(-50%,0%);
     background-color: rgba(0, 0, 0, 0.379);
 }
 #bottomlist{
