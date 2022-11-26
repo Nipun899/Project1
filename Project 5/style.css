@@ -1,0 +1,118 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Gilroy;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  background-color: #dfdfc0;
+
+  width: 100%;
+}
+#nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 4vw;
+  align-items: center;
+}
+#nav h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 30px;
+}
+#nav h3 span {
+  font-weight: 300;
+}
+#nav #links {
+  display: flex;
+  gap: 20px;
+}
+#links a {
+  font-size: 20px;
+  font-weight: 900;
+  font-family: Voyage;
+  text-decoration: none;
+  color: black;
+}
+#heading {
+  background-color: #dfdfc0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 40vh;
+}
+#heading h1{
+    font-family: Gilroy;
+    font-size: 45px;
+}
+#heading p {
+  font-size: 20px;
+  margin: 10px;
+  width: 50%;
+  text-align: center;
+}
+#heading button {
+  border-radius: 100px;
+  background-color: transparent;
+  padding: 12px 32px;
+  margin-bottom: 20px;
+}
+#illus {
+  width: 100%;
+}
+#illus img{
+    width: 100%;
+}
+#details{
+    margin-top: 10vh;
+    display: flex;
+    padding: 10vw 5vw;
+    width: 100%;
+    justify-content: space-between;
+}
+#details #dleft{
+    width: 48%;
+    border-right: 2px solid black;
+    text-align: right;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+#details #dleft p{
+    font-size: 16px;
+    margin-top: 20px;
+    width: 40%;
+}
+#details #dleft #smline{
+    width: 8%;
+    height: 2px;
+    background-color: black;
+    margin-top: 20px;
+}
+#details #dright{
+    width: 48%;
+}
+#dright .feat{
+    display: flex;
+    flex-direction: column;
+}
+.fdets{
+    display: flex;
+    padding: 10px;
+}
+.fdets i{
+    padding-right: 20px;
+    font-size: 40px;
+}
+#dtext p{
+    width: 40%;
+}

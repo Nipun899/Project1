@@ -1,0 +1,9 @@
+Dom has 4 things
+selection of element
+changing HtmL of document
+Changing CSS of element
+Eventlistener
+
+Selection
+document.query
+
